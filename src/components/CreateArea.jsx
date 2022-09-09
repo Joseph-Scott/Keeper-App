@@ -10,6 +10,6 @@ function CreateArea() {
       </form>
     </div>
   );
-}
+};
 
 export default CreateArea;
