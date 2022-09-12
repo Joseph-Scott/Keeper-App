@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { isTemplateExpression } from "typescript";
 import App from "./components/App";
 
 
