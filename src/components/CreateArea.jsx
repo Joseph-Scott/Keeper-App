@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function CreateArea(props) {
-
   const [note, setNote] = useState({
     title: "",
     content: ""
@@ -29,7 +28,7 @@ function CreateArea(props) {
 
   return (
     <div>
-      <form>
+      <form className="create-note">
         <input 
           name="title" 
           onChange={handleChange} 
